@@ -34,11 +34,19 @@ img {
   width: 100%;
   white-space: nowrap;
   overflow: hidden;
-  animation: typing 2s, cursor .4 step-end infinite alternate;
+  /* animation: typing 2s, cursor .4 step-end infinite alternate; */
 }
 
-li {
+.subtitle {
+  font-size: 22px;
   margin-left: 20px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  display: inline-block;
+  border-right: 5px solid;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 @keyframes cursor {
@@ -50,7 +58,9 @@ li {
 }
 
 li {
-  margin-left: 20px;
+  margin-left: 50px;
+  font-size: 18px;
+  animation: fadeIn 0.5s ease forwards;
 }
 
 p {
